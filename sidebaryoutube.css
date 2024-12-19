@@ -1,0 +1,45 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+}
+.sidebar-link {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    height: 74px;
+    cursor: pointer;
+}
+.sidebar-link:hover {
+    background-color:  rgb(235, 235, 235);
+    
+}
+.home {
+    height: 30px;
+}
+.explore {
+    height: 35px;
+}
+.subscribe {
+    height: 25px;
+}
+.originals {
+    height: 30px;
+}
+.music {
+    height: 35px;
+}
+
+.library {
+    height: 70px;
+}
+.sidebar-link div {
+    font-size: 10px;
+    margin-top: 10px;
+}
